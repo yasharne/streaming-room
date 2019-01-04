@@ -47,7 +47,7 @@ function webServer(app, server) {
 
   // i18n
   i18n.configure({
-    locales: ['pt', 'en'],
+    locales: ['fa', 'en'],
     queryParameter: 'lang',
     directory: path.join(__dirname, 'locales'),
   });
